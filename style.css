@@ -3,6 +3,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  height: 5000px;
 }
 
 .top-banner {
@@ -21,6 +22,10 @@ body {
 h1 {
   margin-top: 100px;
   font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
 }
 h3 {
   margin-top: 20px;
@@ -44,4 +49,27 @@ p {
   background-image: url(/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.flexible-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.experience-item {
+  width: 80%;
+  margin: 0 5%;
+  box-shadow: 2px 2px 30px;
+  padding: 50px 25px;
+  border-radius: 7px;
+}
+#first-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 4;
+}
+#second-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 4;
 }
